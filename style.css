@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat','Permanent Marker', cursive, sans-serif;
+}
+body{
+    background-color: #d2ebf3;
+}
+header{
+    width: auto;
+    height: auto;
+    background: #76cfec;
+    margin-left: -10px;
+    margin-top: -20px;
+    margin-right: -8px;
+}
+header ul{
+    margin-left: 5px;
+}
+header li{
+    width: 100px;
+    height: auto;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all ease .5s;
+}
+header li:hover{
+    font-size: 25px;
+    color: #d2ebf3;
+}
+#about-me{
+    background: linear-gradient(to right, #0da5d8, #d2ebf3);
+    margin-left: -10px;
+    margin-top: -20px;
+    margin-right: -8px;
+}
+#about-me h1, #about-me h2, #about-me p{
+    margin: 10px;
+}
+
+#projects{
+    background: linear-gradient(to left, #0f7486, #36aabe);
+    margin-left: -10px;
+    margin-top: -20px;
+    margin-right: -8px;
+}
+#projects h2, #projects h3{
+    margin-left: 10px;
+}
+#projects i{
+    margin-right: 3px;
+}
+#skills{
+    background: linear-gradient(to bottom right, #1bb4cf, #0a6474);
+    margin-left: -10px;
+    margin-top: -20px;
+    margin-right: -8px;
+}
+#skills i{
+    font-size: 40px;
+    margin: 10px;
+    cursor: pointer;
+}
+footer{
+    text-align: center;
+}
+#contact{
+    display: inline-block;
+}
+.contact-i {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    border-left: 3px solid #0a6474;
+}  
+.contact-i input{
+    margin-bottom: 5px;
+    width: 350px;
+    height: 40px;
+    border-radius: 15px;
+}
+form button{
+    width: 70px;
+    height: 30px;
+    background-color: #36aabe;
+    border-radius: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1280px) {
+    h1{
+        font-size: 16px;
+    }
+    li{
+        font-size: 12px;
+    }
+}
